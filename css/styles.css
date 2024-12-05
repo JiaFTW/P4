@@ -12,10 +12,10 @@ body {
     background-color: #007bff; /* Main Blue */
 }
 .navbar-brand, .nav-link {
-    color: #ffffff !important;
+    color: #007bff;
 }
 .navbar-brand:hover, .nav-link:hover {
-    color: #e9ecef !important; /* Lighter hover effect */
+    color: #0056b3; /* Lighter hover effect */
 }
 
 /* Header Styles */
