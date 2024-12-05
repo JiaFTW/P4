@@ -1,87 +1,7 @@
-
-body {
-    font-family: 'Arial', sans-serif;
-    color: #333;
-    background-color: #f9f9f9;
-    margin: 0;
-    padding: 0;
-}
-
-/* Navbar Styles */
-.navbar {
-    background-color: #007bff; /* Main Blue */
-}
-.navbar-brand, .nav-link {
-    color: #007bff;
-}
-.navbar-brand:hover, .nav-link:hover {
-    color: #0056b3; /* Lighter hover effect */
-}
-
-/* Header Styles */
-header {
-    background-color: #0056b3; /* Darker Blue */
-    color: #ffffff;
-    padding: 2rem 0;
-    text-align: center;
-}
-header h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-header p {
-    font-size: 1.2rem;
-}
-
-/* Product Card Styles */
-.card {
-    border: none;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
-}
-.card-title {
-    color: #0056b3; /* Darker Blue */
-    font-weight: bold;
-}
-.card-text {
-    font-size: 0.95rem;
-    color: #555;
-}
-.card .btn-success {
-    background-color: #007bff; /* Blue button */
-    border: none;
-}
-.card .btn-success:hover {
-    background-color: #0056b3; /* Darker Blue */
-}
-
-/* Footer Styles */
-footer {
-    background-color: #0056b3;
-    color: #ffffff;
-    padding: 1rem 0;
-}
-footer p {
-    margin: 0;
-    font-size: 0.9rem;
-}
-
-/* Additional Utility Classes */
-.text-primary {
-    color: #007bff !important;
-}
-.bg-primary {
-    background-color: #007bff !important;
-}
-
 /* Navbar Font Color */
 .navbar-light .navbar-nav .nav-link {
     color: #007bff; /* Blue font color */
-    font-weight: bold; 
+    font-weight: bold; /* Optional: Make the font bold */
     transition: color 0.3s ease; /* Smooth hover transition */
 }
 
@@ -91,9 +11,88 @@ footer p {
 
 .navbar-light .navbar-brand {
     color: #007bff; /* Blue brand color */
-    font-weight: bold; 
+    font-weight: bold; /* Optional: Emphasize brand */
 }
 
 .navbar-light .navbar-brand:hover {
     color: #0056b3; /* Darker blue on hover */
+}
+
+/* Navbar Customization */
+.navbar-nav {
+    align-items: center;
+}
+.navbar-nav .nav-item {
+    margin: 0;
+}
+.navbar-nav .nav-link {
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+    color: #0056b3;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff;
+}
+.navbar-brand:hover {
+    color: #0056b3;
+}
+
+/* Header Section */
+header {
+    background-color: #007bff; /* Blue header background */
+    color: white;
+    padding: 5rem 0;
+}
+
+header .container h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header .container p {
+    font-size: 1.25rem;
+}
+
+/* Main Content Section */
+main {
+    margin-top: 3rem;
+}
+
+.card-body .btn-primary {
+    background-color: #007bff; /* Blue button */
+    border-color: #007bff;
+}
+.card-body .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue */
+}
+
+/* Footer Section */
+footer {
+    background-color: #343a40; /* Dark background */
+    color: white;
+    padding: 1.5rem 0;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    header {
+        padding: 3rem 0;
+    }
+
+    header .container h1 {
+        font-size: 2rem;
+    }
+
+    header .container p {
+        font-size: 1rem;
+    }
+
+    .card-body .btn-primary {
+        width: 100%;
+    }
 }
