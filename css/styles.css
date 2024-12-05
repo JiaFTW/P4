@@ -1,7 +1,7 @@
 /* Navbar Font Color */
 .navbar-light .navbar-nav .nav-link {
     color: #007bff; /* Blue font color */
-    font-weight: bold; /* Optional: Make the font bold */
+    font-weight: bold; 
     transition: color 0.3s ease; /* Smooth hover transition */
 }
 
@@ -11,7 +11,7 @@
 
 .navbar-light .navbar-brand {
     color: #007bff; /* Blue brand color */
-    font-weight: bold; /* Optional: Emphasize brand */
+    font-weight: bold;
 }
 
 .navbar-light .navbar-brand:hover {
@@ -78,7 +78,7 @@ footer {
     padding: 1.5rem 0;
 }
 
-/* Media Queries for Responsiveness */
+
 @media (max-width: 768px) {
     header {
         padding: 3rem 0;
